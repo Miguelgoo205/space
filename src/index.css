@@ -1,0 +1,180 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  /* width: 100vw; */
+  background-color: rgb(255, 255, 255);
+  font-size: 3rem;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+}
+
+header{
+  width: 100%;
+  height: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+
+
+.logo{
+  width: 20%;
+  height: 20rem;
+}
+
+.nav{
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.list{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.anchor{
+  width: 10rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  background-color: #838383;
+  color: rgb(255, 255, 255);
+  border: solid 2px black;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: .2s;
+}
+/* .anchor:focus{
+  background-color: cyan;
+  color: black;
+} */
+.anchor:hover{
+  background-color: white;
+  color: black;
+  transition: .2s;
+}
+main{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}
+/* Informacion general del aplicativo */
+
+.cont-info{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* margin-bottom: 2rem; */
+}
+
+section{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+section>img{
+  width: 90%;
+  height: 40%;
+  margin-top: 4rem;
+}
+
+aside{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+h2{
+  padding: 1rem;
+}
+
+span{
+  color: #ffff00;
+  text-shadow: 2px 2px 2px #000000;
+}
+
+p{
+  /* width: 90%; */
+  margin-top: 0.5rem ;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+/* ------------------ */
+
+/* Informacion Servicios */
+
+
+.service{
+  margin-top: 2rem;
+}
+
+.services1{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.card{
+  width: 30%;
+  height: auto;
+  background-color: #fafafa;
+  margin: 2rem;
+  border-radius: 5px;
+  box-shadow: 2px 4px 10px 2px rgb(166, 166, 166);
+  padding: 0.5rem;
+  text-align: center;
+  transition: .4s;
+}
+
+.card:hover{
+  transform:scale(1.1);
+  transition: .4s;
+}
+
+.card h3{
+  margin-left: 10px;
+  background: -webkit-linear-gradient(#000000, #ffdd02);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-align: center;
+}
+.service-img{
+  width: 50%;
+  height: 40%;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.point{
+  text-align: left;
+  font-size: 80%;
+  margin: 0.5rem;
+}
